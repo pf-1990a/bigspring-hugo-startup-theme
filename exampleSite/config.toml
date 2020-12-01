@@ -1,7 +1,8 @@
 ######################## default configuration ####################
-baseURL = "http://examplesite.org/"
-title = "Bigspring Hugo"
-theme = "bigspring"
+#   https://github.com/themefisher/bigspring-hugo-startup-theme/issues
+baseURL = "http://biologisys.com/"
+title = "Biologisys"
+theme = "bigspring-hugo-startup-theme"
 languageName = "En"
 languageCode = "en-us"
 # post pagination
@@ -100,11 +101,11 @@ URL = "faq"
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
-logo_width = "200px"
+logo = "images/biologisys-logo.png"
+logo_width = "180px"
 # Meta data
 description = "This is meta description"
-author = "Themefisher"
+author = "Biologisys"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 
@@ -114,7 +115,7 @@ footer_menu_middle = "Product"
 footer_menu_right = "Support"
 footer_content = "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur."
 # copyright
-copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)"
+copyright = "&copy; 2020 Biologisys Limited. All Rights Reserved."
 
 # Preloader
 [params.preloader]
