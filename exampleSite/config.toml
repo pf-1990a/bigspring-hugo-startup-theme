@@ -40,24 +40,39 @@ link = "plugins/slick/slick.min.js"
 
 # main menu
 [[menu.main]]
-name = "Blog"
-URL = "blog"
-weight = 1
+#name = "Services"
+#URL = "services"
+#weight = 1
 
 [[menu.main]]
-name = "Pricing"
-URL = "pricing"
-weight = 2
+#name = "Process"
+#URL = "process"
+#weight = 2
 
 [[menu.main]]
-name = "Contact"
-URL = "contact"
-weight = 3
+#name = "Pricing"
+#URL = "pricing"
+#weight = 3
 
 [[menu.main]]
-name = "FAQ"
-URL = "faq"
-weight = 4
+#name = "Contact"
+#URL = "contact"
+#weight = 4
+
+[[menu.main]]
+#name = "About"
+#URL = "about"
+#weight = 5
+
+#[[menu.main]]
+#name = "FAQ"
+#URL = "faq"
+#weight = 4
+
+#[[menu.main]]
+#name = "Blog"
+#URL = "blog"
+#weight = 9
 
 # footer menu left
 [[menu.footer_left]]
@@ -65,12 +80,12 @@ name = "About Us"
 URL = "#"
 
 [[menu.footer_left]]
-name = "Quick Start"
-URL = "#"
+name = "Privacy Policy"
+URL = "privacy-policy"
 
 [[menu.footer_left]]
-name = "Pricing"
-URL = "pricing"
+name = "Terms & Conditions"
+URL = "terms-conditions"
 
 
 # footer menu middle
@@ -87,17 +102,14 @@ name = "Features"
 URL = "#"
 
 # footer menu right
-[[menu.footer_right]]
-name = "Privacy Policy"
-URL = "privacy-policy"
-
-[[menu.footer_right]]
-name = "Terms & Conditions"
-URL = "terms-conditions"
 
 [[menu.footer_right]]
 name = "FAQ"
 URL = "faq"
+
+[[menu.footer_right]]
+name = "Contact"
+URL = "contact"
 
 #################### default parameters ################################
 [params]
@@ -107,7 +119,7 @@ logo_width = "180px"
 description = "This is meta description"
 author = "Biologisys"
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+contact_form_action = "https://formspree.io/f/mnqownnj" # contact form works with https://formspree.io
 
 ########### footer content ##########
 footer_menu_left = "Company"
